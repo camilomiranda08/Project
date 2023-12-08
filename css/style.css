@@ -293,6 +293,13 @@ footer .footer-content .redes-link img {
   text-align: center;
   margin: 20px 0;
 }
+.container-title-404 {
+  line-height: 380px;
+  height: 100%;
+  max-height: 420px;
+  font-size: 10em;
+  color: red;
+}
 
 .form {
   max-width: 1000px;
