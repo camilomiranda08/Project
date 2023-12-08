@@ -1,0 +1,50 @@
+// font
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Whisper&display=swap");
+
+// Variables
+$font-times-new-roman: "Roboto", sans-serif;
+$font-whisper-400: "Whisper", cursive;
+$primary-color: #000000;
+$active-color: #e7cc32;
+$border-color: #ffcc88;
+$bg-color-primary: #ffffff;
+$secundary-corlor: #c9ac08;
+
+// Reset styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+// Body styles
+body {
+  overflow-x: hidden;
+  font-family: $font-times-new-roman;
+  background: $bg-color-primary;
+}
+
+// header styles
+@import "header.scss";
+
+// banner Styles
+@import "banner.scss";
+
+// section text-content
+@import "content-text.scss";
+
+//setcion galery Cardas
+@import "galeryCard.scss";
+
+// section footer
+@import "footer.scss";
+
+// section form
+@import "form.scss";
+
+// section responsive
+@import "responsive.scss";
